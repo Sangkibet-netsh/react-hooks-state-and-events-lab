@@ -7,7 +7,7 @@ function App() {
 
 
   const [isDark, setIsDark]=useState(false)
-  const [items, setItems] = useState(itemData);
+  //const [items, setItems] = useState(itemData);
 
   function handleClick(){
     setIsDark((isDark) => !isDark )
